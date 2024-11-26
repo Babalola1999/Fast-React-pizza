@@ -1,8 +1,9 @@
-# React + Vite
+# This application was created using Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# This Application focus on ordering of pizza online,which takes in your details which persist throughtout all component that needs the details.
 
-Currently, two official plugins are available:
+# This application focuses on advance state management,using local state from useState hook, to more advance state management  using redux provided by react-redux.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Routes were define using react-router which helps to provide navigation from one location to the other,using hooks like useNavigation ,links and so on.
+
+# Responsive styles for all screen size were achieved using tailwind css which was a third party libary installed using npm
