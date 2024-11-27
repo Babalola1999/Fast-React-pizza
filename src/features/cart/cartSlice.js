@@ -10,7 +10,8 @@ const initialState={
     }],
 }
 const cartSlice=createSlice({
-    name:"cart",initialState,
+    name:"cart",
+    initialState,
     reducers:{
         addItem(state,action){
         //payload=newItem payload is what we pass inside the action creator
@@ -41,3 +42,4 @@ const cartSlice=createSlice({
 
 export const {addItem,deleteItem,increaseItemQuantity,decreaseItemQuantity,clearCart}=cartSlice.actions
 export default cartSlice.reducer
+export const getTotalCartPrice=(state)=>state.cart.cart.reduce((sum,item)=>sum + item.quantity, 0)
