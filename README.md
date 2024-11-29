@@ -1,7 +1,9 @@
 ### This application was created using Vite
 
--npm create vite@latest 16-FAST-REACT-PIZZA -- --template react
--cd 16-FAST-REACT-PIZZA
+<ul>
+<li>npm create vite@latest 16-fast-react-pizza -- --template react</li>
+<li>cd 16-FAST-REACT-PIZZA</li>
+</ul>
 
 ### This Application focus on ordering of pizza online,which takes in your details which persist throughtout all component that needs the details.
 
@@ -11,10 +13,11 @@
 
 ### Tailwindcss installation
 
-#### Responsive styles for all screen size were achieved using tailwind css which was a third party libary installed using npm
-
--npm install -D tailwindcss postcss autoprefixer
--npx tailwindcss init -p
+<ul>
+<li> Responsive styles for all screen size were achieved using tailwind css which was a third party libary installed using npm</li>
+<li>npm install -D tailwindcss postcss autoprefixer</li>
+<li>npx tailwindcss init -p</li>
+</ul>
 
 ### To view this app on your local computer
 
