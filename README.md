@@ -5,6 +5,13 @@
 <li>cd 16-FAST-REACT-PIZZA</li>
 </ul>
 
+### Eslint installation
+
+<ul>
+<li><s>npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev</s></li>
+<p>After installation a .eslintrc.json file was created & this file was used to configure eslint,In this file we are telling eslint that we want to used the previously installed packages basically <s>eslint-config-react-app.</s> Then simply type {"extends": "react-app"}</p>
+</ul>
+
 ### This Application focus on ordering of pizza online,which takes in your details which persist throughtout all component that needs the details.
 
 ### This application focuses on advance state management,using local state from useState hook, to more advance state management using redux provided by react-redux.
@@ -25,5 +32,5 @@
 <li>Clone this repo to your local machine or computer using git clone https://github.com/Babalola1999/Fast-react-pizza</li>
 <li>Open this repo on your text editor</li>
 <li>Open your terminal then type "npm run dev"</li>
-<li>Click on the link that will appear   "Plugin: vite-plugin-eslint"</li>
+<li>Click on the link that will appear   "http://localhost:5173/"</li>
 </ul>
