@@ -8,7 +8,7 @@
 ### Eslint installation
 
 <ul>
-<li><s>"npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev<"/s></li>
+<li><s>"npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev"</s></li>
 <p>After installation a .eslintrc.json file was created & this file was used to configure eslint,In this file we are telling eslint that we want to used the previously installed packages basically <s>eslint-config-react-app.</s> Then simply type {"extends": "react-app"}</p>
 </ul>
 
