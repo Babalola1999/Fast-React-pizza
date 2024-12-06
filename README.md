@@ -32,5 +32,5 @@
 <li>Clone this repo to your local machine or computer using git clone https://github.com/Babalola1999/Fast-react-pizza</li>
 <li>Open this repo on your text editor</li>
 <li>Open your terminal then type "npm run dev"</li>
-<li>Click on the link that will appear   "https://localhost:5173/"</li>
+<li>Click on the link that will appear   https://localhost:5173/</li>
 </ul>
