@@ -22,6 +22,7 @@ function Order() {
     estimatedDelivery,
     cart,
   } = order;
+  
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
 
   return (
@@ -49,7 +50,7 @@ function Order() {
       </div>
 
       
-      <ul className="divide-y divide-stone-200 border-b border-t ">{cart.map((item) => <OrderItem item={item} key={item.id} />)}</ul>
+      <ul className="divide-y divide-stone-200 border-b border-t ">{cart.map((item) => <OrderItem item={item} key={item.pizzaId} />)}</ul>
       <div className=" space-y-2 bg-stone-200 py-5 px-6">
         <p className="font-medium text-sm text-stone-600">Price pizza: {formatCurrency(orderPrice)}</p>
         {priority && <p className="font-medium text-sm text-stone-600">Price priority: {formatCurrency(priorityPrice)}</p>}
