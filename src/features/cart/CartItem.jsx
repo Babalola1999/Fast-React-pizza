@@ -1,5 +1,3 @@
-
-
 //import Button from "../../ui/Button";
 import { useSelector } from "react-redux";
 import { formatCurrency } from "../../utils/helpers";

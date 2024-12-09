@@ -1,4 +1,3 @@
-
 import { useDispatch, useSelector } from "react-redux";
 import Button from "../../ui/Button";
 import { formatCurrency } from "../../utils/helpers";
@@ -34,7 +33,11 @@ dispatch(addItem(newItem))
          { isInCart&&
          <div className="flex items-center gap-3 sm:gap-8">
           <UpdateItemQuantity pizzaId={id} currentQuantity={currentQuantity} />
+<<<<<<< HEAD
           <DeleteItem pizzaId={id}/>
+=======
+         <DeleteItem pizzaId={id}/>
+>>>>>>> 21613ebf63cc4d63fa1f15d846b0bb9934d05ee8
          </div>
          }
 {!soldOut && !isInCart &&<Button type="small" onClick={handleAddToCart} >Add to cart</Button>}
