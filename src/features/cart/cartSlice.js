@@ -17,7 +17,7 @@ const cartSlice=createSlice({
         addItem(state,action){
         //payload=newItem payload is what we pass inside the action creator
         state.cart.push(action.payload)
-     guit   },
+        },
         deleteItem(state,action){
         //payload=pizzaId
         state.cart=state.cart.filter(item=> item.pizzaId !==action.payload)        },
@@ -42,7 +42,7 @@ const cartSlice=createSlice({
     }
 })
 
-export const {addItem,deleteItem,increaseItemQuantity,decreaseItemQuantclearCart}=cartSlice.actions
+export const {addItem,deleteItem,increaseItemQuantity,decreaseItemQuantity,clearCart}=cartSlice.actions
 export default cartSlice.reducer
 export const getCart=(state)=>state.cart.cart;
 export const getTotalCartQuantity=(state)=>state.cart.cart.reduce((sum,item)=>sum + item.quantity, 0)
