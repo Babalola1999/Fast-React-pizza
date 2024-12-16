@@ -83,6 +83,7 @@ function CreateOrder() {
 
         <div>
           <input type="hidden" name="cart" value={JSON.stringify(cart)} />
+          <input type="hidden" name="position" value={position.longitude && position.latitude? `${position.latitude},${position.longitude}`: ""}/>
           <Button  type="primary"  disabled={isSubmitting || isLoadingAddress} >
             {isSubmitting ? "Placing Order ...." : `Order now from ${formatCurrency(totalPrice)}`}
           </Button>
@@ -108,9 +109,10 @@ export async function action({ request }) {
   const newOrder = await createOrder(order);
   //Do not overuse because it reduces performance,the reason why we are importing store is because you cant use
   //useSelector outside  a componenent,so to still achieve the same purpose as useSelector we did this below
+  console.log(order)
   store.dispatch(clearCart())
   return redirect(`/order/${newOrder.id}`);
-  //console.log(order);
+  
   //if everything is okay create new order and redirect
   
 }
